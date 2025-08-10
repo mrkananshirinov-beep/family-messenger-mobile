@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Temporary files
+.tmp/
+.temp/
+
+# Security files
+*.p12
+*.key
+*.pem
+google-services.json
+GoogleService-Info.plist
+
+# Build outputs
+*.apk
+*.ipa
+*.aab
+
+# Local storage
+storage/
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db

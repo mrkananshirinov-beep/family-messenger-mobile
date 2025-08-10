@@ -1,0 +1,58 @@
+#!/bin/bash
+
+echo "🚀 FIREBASE SETUP GUIDE - FAMILY MESSENGER"
+echo "=========================================="
+echo ""
+
+echo "📋 STEP 1: Firebase Project Setup"
+echo "1. https://console.firebase.google.com/ saytına keç"
+echo "2. 'Add project' düyməsini bas"
+echo "3. Project name: 'family-messenger-app'"
+echo "4. Analytics disable et (privacy üçün)"
+echo "5. Create project düyməsini bas"
+echo ""
+
+echo "📋 STEP 2: Authentication Setup"
+echo "1. Sol menudan 'Authentication' seç"
+echo "2. 'Get started' düyməsini bas"
+echo "3. 'Sign-in method' tab-ına keç"
+echo "4. 'Email/Password' enable et"
+echo "5. 'Phone' enable et (SMS 2FA üçün)"
+echo ""
+
+echo "📋 STEP 3: Firestore Database"
+echo "1. 'Firestore Database' seç"
+echo "2. 'Create database' düyməsini bas"
+echo "3. 'Start in test mode' seç (sonra security rules yazacaq)"
+echo "4. Location seç (europe-west1 tövsiyə)"
+echo ""
+
+echo "📋 STEP 4: Storage Setup"
+echo "1. 'Storage' seç"
+echo "2. 'Get started' düyməsini bas"
+echo "3. Security rules default saxla"
+echo "4. Location eyni seç (europe-west1)"
+echo ""
+
+echo "📋 STEP 5: Config Files"
+echo "1. Project Settings > General"
+echo "2. 'Your apps' bölməsində Android icon-a klik"
+echo "3. Package name: com.familymessenger.app"
+echo "4. google-services.json yüklə"
+echo "5. iOS üçün də eyni addımları tətbiq et"
+echo ""
+
+echo "📋 STEP 6: API Keys"
+echo "1. Project Settings > Service accounts"
+echo "2. 'Generate new private key' düyməsini bas"
+echo "3. JSON file-ı secure yerdə saxla"
+echo "4. Web API key-i kopyala"
+echo ""
+
+echo "🔑 ENVIRONMENT VARIABLES:"
+echo "EXPO_PUBLIC_FIREBASE_API_KEY=your_api_key"
+echo "EXPO_PUBLIC_FIREBASE_PROJECT_ID=family-messenger-app"
+echo "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=family-messenger-app.appspot.com"
+echo ""
+
+echo "✅ Firebase setup tamamlandıqdan sonra 'npm run setup:firebase' əmrini işlət"
